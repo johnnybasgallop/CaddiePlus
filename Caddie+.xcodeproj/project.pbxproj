@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6DEB6D2A856475002AEE72 /* Caddie_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DEB6C2A856475002AEE72 /* Caddie_App.swift */; };
+		CA6DEB6F2A856475002AEE72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DEB6E2A856475002AEE72 /* ContentView.swift */; };
+		CA6DEB712A856477002AEE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6DEB702A856477002AEE72 /* Assets.xcassets */; };
+		CA6DEB742A856477002AEE72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6DEB732A856477002AEE72 /* Preview Assets.xcassets */; };
+		CA6DEB7B2A85662F002AEE72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA6DEB7A2A85662F002AEE72 /* GoogleService-Info.plist */; };
+		CA6DEB7E2A8566EC002AEE72 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CA6DEB7D2A8566EC002AEE72 /* FirebaseAnalytics */; };
+		CA6DEB802A8566EC002AEE72 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CA6DEB7F2A8566EC002AEE72 /* FirebaseAuth */; };
+		CA6DEB822A8566EC002AEE72 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CA6DEB812A8566EC002AEE72 /* FirebaseFirestore */; };
+		CA864E5A2A92707C005760F5 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA864E592A92707C005760F5 /* Round.swift */; };
+		CAF30BA22A9685F000DF691A /* MyBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF30BA12A9685F000DF691A /* MyBag.swift */; };
+		CAF30BA52A96861800DF691A /* Yardages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF30BA42A96861800DF691A /* Yardages.swift */; };
+		CAF30BA72A9693EA00DF691A /* MyBagTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF30BA62A9693EA00DF691A /* MyBagTitle.swift */; };
+		CAF30BAA2A9697B000DF691A /* clubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF30BA92A9697B000DF691A /* clubCategory.swift */; };
+		CAF30BAC2A969EF400DF691A /* club.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF30BAB2A969EF400DF691A /* club.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA6DEB692A856475002AEE72 /* Caddie+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caddie+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6DEB6C2A856475002AEE72 /* Caddie_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caddie_App.swift; sourceTree = "<group>"; };
+		CA6DEB6E2A856475002AEE72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA6DEB702A856477002AEE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6DEB732A856477002AEE72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA6DEB7A2A85662F002AEE72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA6DEB8C2A85B4A9002AEE72 /* Caddie--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Caddie--Info.plist"; sourceTree = SOURCE_ROOT; };
+		CA864E592A92707C005760F5 /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		CAF30BA12A9685F000DF691A /* MyBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBag.swift; sourceTree = "<group>"; };
+		CAF30BA42A96861800DF691A /* Yardages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yardages.swift; sourceTree = "<group>"; };
+		CAF30BA62A9693EA00DF691A /* MyBagTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBagTitle.swift; sourceTree = "<group>"; };
+		CAF30BA92A9697B000DF691A /* clubCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clubCategory.swift; sourceTree = "<group>"; };
+		CAF30BAB2A969EF400DF691A /* club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = club.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6DEB662A856475002AEE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6DEB7E2A8566EC002AEE72 /* FirebaseAnalytics in Frameworks */,
+				CA6DEB802A8566EC002AEE72 /* FirebaseAuth in Frameworks */,
+				CA6DEB822A8566EC002AEE72 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6DEB602A856475002AEE72 = {
+			isa = PBXGroup;
+			children = (
+				CA6DEB6B2A856475002AEE72 /* Caddie+ */,
+				CA6DEB6A2A856475002AEE72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6DEB6A2A856475002AEE72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DEB692A856475002AEE72 /* Caddie+.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6DEB6B2A856475002AEE72 /* Caddie+ */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DEB8C2A85B4A9002AEE72 /* Caddie--Info.plist */,
+				CA6DEB862A85A8DB002AEE72 /* Views */,
+				CA6DEB852A85A8CE002AEE72 /* Managers */,
+				CA6DEB6C2A856475002AEE72 /* Caddie_App.swift */,
+				CA6DEB6E2A856475002AEE72 /* ContentView.swift */,
+				CA6DEB7A2A85662F002AEE72 /* GoogleService-Info.plist */,
+				CA6DEB702A856477002AEE72 /* Assets.xcassets */,
+				CA6DEB722A856477002AEE72 /* Preview Content */,
+			);
+			path = "Caddie+";
+			sourceTree = "<group>";
+		};
+		CA6DEB722A856477002AEE72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DEB732A856477002AEE72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA6DEB852A85A8CE002AEE72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CA6DEB862A85A8DB002AEE72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAF30BA32A96860800DF691A /* Yardages */,
+				CAF30BA02A9685E300DF691A /* MyBag */,
+				CAF30B9F2A9685D500DF691A /* Round */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAF30B9F2A9685D500DF691A /* Round */ = {
+			isa = PBXGroup;
+			children = (
+				CA864E592A92707C005760F5 /* Round.swift */,
+			);
+			path = Round;
+			sourceTree = "<group>";
+		};
+		CAF30BA02A9685E300DF691A /* MyBag */ = {
+			isa = PBXGroup;
+			children = (
+				CAF30BA12A9685F000DF691A /* MyBag.swift */,
+				CAF30BA62A9693EA00DF691A /* MyBagTitle.swift */,
+				CAF30BA92A9697B000DF691A /* clubCategory.swift */,
+				CAF30BAB2A969EF400DF691A /* club.swift */,
+			);
+			path = MyBag;
+			sourceTree = "<group>";
+		};
+		CAF30BA32A96860800DF691A /* Yardages */ = {
+			isa = PBXGroup;
+			children = (
+				CAF30BA42A96861800DF691A /* Yardages.swift */,
+			);
+			path = Yardages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6DEB682A856475002AEE72 /* Caddie+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6DEB772A856477002AEE72 /* Build configuration list for PBXNativeTarget "Caddie+" */;
+			buildPhases = (
+				CA6DEB652A856475002AEE72 /* Sources */,
+				CA6DEB662A856475002AEE72 /* Frameworks */,
+				CA6DEB672A856475002AEE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caddie+";
+			packageProductDependencies = (
+				CA6DEB7D2A8566EC002AEE72 /* FirebaseAnalytics */,
+				CA6DEB7F2A8566EC002AEE72 /* FirebaseAuth */,
+				CA6DEB812A8566EC002AEE72 /* FirebaseFirestore */,
+			);
+			productName = "Caddie+";
+			productReference = CA6DEB692A856475002AEE72 /* Caddie+.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6DEB612A856475002AEE72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CA6DEB682A856475002AEE72 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CA6DEB642A856475002AEE72 /* Build configuration list for PBXProject "Caddie+" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6DEB602A856475002AEE72;
+			packageReferences = (
+				CA6DEB7C2A8566EC002AEE72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CA6DEB6A2A856475002AEE72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6DEB682A856475002AEE72 /* Caddie+ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6DEB672A856475002AEE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6DEB742A856477002AEE72 /* Preview Assets.xcassets in Resources */,
+				CA6DEB7B2A85662F002AEE72 /* GoogleService-Info.plist in Resources */,
+				CA6DEB712A856477002AEE72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6DEB652A856475002AEE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF30BA52A96861800DF691A /* Yardages.swift in Sources */,
+				CA6DEB6F2A856475002AEE72 /* ContentView.swift in Sources */,
+				CA864E5A2A92707C005760F5 /* Round.swift in Sources */,
+				CAF30BAC2A969EF400DF691A /* club.swift in Sources */,
+				CAF30BA22A9685F000DF691A /* MyBag.swift in Sources */,
+				CAF30BA72A9693EA00DF691A /* MyBagTitle.swift in Sources */,
+				CAF30BAA2A9697B000DF691A /* clubCategory.swift in Sources */,
+				CA6DEB6D2A856475002AEE72 /* Caddie_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA6DEB752A856477002AEE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6DEB762A856477002AEE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6DEB782A856477002AEE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caddie+/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XN4AG4472;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Caddie--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basgallop.Caddie-.Caddie-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6DEB792A856477002AEE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caddie+/Preview Content\"";
+				DEVELOPMENT_TEAM = 9XN4AG4472;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Caddie--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basgallop.Caddie-.Caddie-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6DEB642A856475002AEE72 /* Build configuration list for PBXProject "Caddie+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6DEB752A856477002AEE72 /* Debug */,
+				CA6DEB762A856477002AEE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6DEB772A856477002AEE72 /* Build configuration list for PBXNativeTarget "Caddie+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6DEB782A856477002AEE72 /* Debug */,
+				CA6DEB792A856477002AEE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA6DEB7C2A8566EC002AEE72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA6DEB7D2A8566EC002AEE72 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA6DEB7C2A8566EC002AEE72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CA6DEB7F2A8566EC002AEE72 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA6DEB7C2A8566EC002AEE72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CA6DEB812A8566EC002AEE72 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA6DEB7C2A8566EC002AEE72 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA6DEB612A856475002AEE72 /* Project object */;
+}
